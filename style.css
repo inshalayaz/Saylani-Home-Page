@@ -1,0 +1,30 @@
+/* Header */
+#header{
+    background-color: #316DC3;
+    height: 50px;
+    padding-top: 15px;
+}
+#icons{
+    display: inline-block;
+    padding-right: 200px;
+}
+.icon{
+    margin-left: 35px;
+    color: white;
+   font-size: 16px;
+   cursor: pointer;
+}
+.head-btn{
+    font-size: 11px;
+}
+
+/* Nav Bar */
+
+#navbar{
+    margin-top: 15px;
+    background-color: #f7f8fa;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
