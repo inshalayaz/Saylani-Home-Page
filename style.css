@@ -61,3 +61,17 @@
     color: white;
 }
 /* Nav Bar Ends */
+
+/* Marquee */
+#cont-marquee{
+    margin-top: 15px;
+    
+}
+#marq-style{
+    height: 30px;
+}
+marquee > p {
+    margin-top: 6px;
+}
+
+/* Marquee Ends */
