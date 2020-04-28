@@ -65,13 +65,35 @@
 /* Marquee */
 #cont-marquee{
     margin-top: 15px;
+    background-color: white;
     
 }
 #marq-style{
     height: 30px;
+    width: 90%;
+
 }
 marquee > p {
     margin-top: 6px;
 }
 
 /* Marquee Ends */
+
+/* Introduction Starts */
+
+#intro h2{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#intro {
+    margin-top: 50px;
+    background-color: #f7f8fa;
+}
+#intro-para{
+    font-size: 14px;
+    line-height: 1.9;
+    margin: 10px 170px;
+    color: #666666;
+    margin-bottom: 120px;
+}
+/* Intorduction Ends */
