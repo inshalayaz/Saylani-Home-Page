@@ -97,3 +97,28 @@ marquee > p {
     margin-bottom: 120px;
 }
 /* Intorduction Ends */
+
+/* Stats Start */
+
+#stats{
+    background-color: #2755e9  ;
+    padding-top: 80px;
+    color: white;
+}
+#stats img{
+    height: 40px;
+    width: 40px;
+}
+.num{
+    font-size: 50px;
+    font-weight: 600;
+}
+.month{
+    color: #00ff00;
+    font-size: 18px;
+    font-weight: 600;
+}
+#stats p{
+    font-size: 14px;
+    font-weight: 600;
+}
