@@ -1,3 +1,6 @@
+
+
+
 /* Header */
 #header{
     background-color: #316DC3;
@@ -200,3 +203,34 @@ marquee > p {
     
 
 /* Image Gallery Ends */
+
+/* Footer */
+
+#footer{
+    background-color: #25272e;
+    color: #bbb;
+    padding: 90px 90px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.phone{
+    color: #427900;
+    font-size: 11px;
+}
+.gloab{
+    margin-left: 18px;
+}
+
+.foot-icon{
+    font-size: 14px;
+    margin:10px;
+    background-color: #316DC3;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+#foot-icons{
+    margin-top: 15px;
+}
