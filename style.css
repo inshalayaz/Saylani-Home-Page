@@ -162,7 +162,7 @@ marquee > p {
     background-color: white;
     padding-top: 70px;
     padding-left: 60px;
-    margin-bottom: 90px;
+   
 }
 #mission h3{
     color: #3e76c7;
@@ -186,3 +186,17 @@ marquee > p {
 /* Mission Ends */
 
 /* Image Gallery Starts */
+
+    #img-gallery{
+        background-color: white;
+        padding-top: 90px;
+    }
+    .img-gallery{
+        height: 150.52px;
+        width: 226;
+        margin-top: 40px;
+        margin-bottom: 120px;
+    }
+    
+
+/* Image Gallery Ends */
