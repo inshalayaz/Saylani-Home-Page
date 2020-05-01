@@ -321,3 +321,20 @@ marquee > p {
 #foot-icons{
     margin-top: 15px;
 }
+/* Scroll To Top */
+
+.to-top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #7e7e7e;
+    opacity: .7;
+    color: #fff;
+    padding: 9px 12px;
+    border-radius: 50%;
+    font-size: 42px;
+}
+.to-top:hover{
+    background: #808080 ;
+}
