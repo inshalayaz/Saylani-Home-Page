@@ -2,9 +2,24 @@
 
 
 /* Header */
+
+/* Header Media Queries */
+@media only screen and (max-width: 767px) {
+    #icons{
+        padding-right: 0px !important;
+    }
+    #head-text{
+        text-align: center !important;
+    }
+    .head-btn{
+        margin-bottom: 20px;
+    }
+}
+
+/* Media Queries End */
+
 #header{
     background-color: #316DC3;
-    height: 50px;
     padding-top: 15px;
 }
 #icons{
@@ -12,7 +27,7 @@
     padding-right: 200px;
 }
 .icon{
-    margin-left: 35px;
+    margin-left: 25px;
     color: white;
    font-size: 16px;
    cursor: pointer;
@@ -22,6 +37,15 @@
 }
 
 /* Nav Bar */
+
+/* Nav Bar Media Queries */
+
+@media only screen and (max-width: 767px) {
+   #logo{
+     margin-top: 20px;
+   }
+}
+
 
 #navbar{
     margin-top: 15px;
@@ -83,6 +107,13 @@ marquee > p {
 /* Marquee Ends */
 
 /* Introduction Starts */
+/* Intorduction Media Queries */
+
+@media only screen and (max-width: 767px) {
+    #intro-para{
+        margin: 0 10px !important;
+    }
+}
 
 #intro h2{
     text-transform: uppercase;
@@ -103,6 +134,16 @@ marquee > p {
 
 /* Stats Start */
 
+/* Media Queries */
+
+@media only screen and (max-width: 767px) {
+    #stats{
+        padding-top: 30px !important;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+
+}
 #stats{
     background-color: #2755e9  ;
     padding-top: 80px;
@@ -130,10 +171,26 @@ marquee > p {
 
 /* Work Section */
 
+@media only screen and (max-width: 767px) {
+    #work{
+        padding: 0;
+        margin-left: 0 !important;
+    }
+    .container-fluid{
+        padding: 0;
+    }
+    .card{
+        margin-top: 0!important;
+        margin-bottom: 15px!important;
+    }
+    
+}
+
 #work{
     background-color: #f7f8fa;
     margin-top: 50px;
     margin: 0 10px;
+    padding-top: 40px;
 }
 .work-types{
     padding-top: 50px;
@@ -159,6 +216,27 @@ marquee > p {
 /* Work Ends */
 
 /* Mission Starts */
+
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+    #mission{
+        margin-top: 0!important;
+        padding-left: 0!important;
+        
+    }
+    #mission-heading{
+        text-align: center;
+    }
+    #mission-right{
+        margin-top: 30px!important;
+        text-align: center;
+    }
+    #mission-right h3{
+        text-align: center;
+    }
+   
+}
+
 
 #mission{
     margin-top: 50px;
@@ -189,6 +267,12 @@ marquee > p {
 /* Mission Ends */
 
 /* Image Gallery Starts */
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+    .img-gallery{
+        margin-bottom: 0!important;
+    }
+}
 
     #img-gallery{
         background-color: white;
@@ -205,7 +289,11 @@ marquee > p {
 /* Image Gallery Ends */
 
 /* Footer */
-
+@media only screen and (max-width: 767px) {
+    #footer{
+        text-align: center;
+    }
+}
 #footer{
     background-color: #25272e;
     color: #bbb;
