@@ -19,7 +19,7 @@
 /* Media Queries End */
 
 #header{
-    background-color: #316DC3;
+    background-color: #316DC3!important;
     padding-top: 15px;
 }
 #icons{
