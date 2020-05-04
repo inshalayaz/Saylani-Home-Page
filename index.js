@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var offset = 250
-    var duration = 1000
+    var duration = 500
 
     $(window).scroll(function(){
         if($(this).scrollTop() > offset){
